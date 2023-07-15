@@ -1,0 +1,4 @@
+flask==2.1.2
+Werkzeug==2.1.2
+uWSGI==2.0.20
+requests==2.27.1
