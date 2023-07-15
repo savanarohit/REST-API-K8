@@ -20,12 +20,24 @@ The endpoints(ENDPOINT_DAY, ENDPOINT_MONTH), ports(PORT), and secret(API_SECRET)
 4.	create a Pull Request to master
 5.	Be ready to answer questions
 
+## Requirements
+
+1.	Keep a clean and understandable folder structure.
+2.	Document your work, we love comments and documentation.
+3.	Write all the documentation and comments in English.
+4.	Use docker and Kubernetes.
+
+## Your tasks:
+
+1.	Deploy the services set from the repository to production env using Kubernetes.
+2.	Configure a simple Kubernetes cronjob that calls both api endpoints every day at 1:00 am.
+3.	Send component logs to an Elasticsearch instance deployed in the cluster.
+
 ## Evaluation criteria
 
-This is what we look at - among other things:
-•	The deployment flow has to run, please provide short setup instructions.
-•	Security.
-•	Automation.
-•	Liveness and Readiness of each dependent service.
-•	Usage of Docker and Kubernetes.
+1. The deployment flow has to run, please provide short setup instructions.
+2. Security.
+3. Automation.
+4. Liveness and Readiness of each dependent service.
+5. Usage of Docker and Kubernetes.
 
