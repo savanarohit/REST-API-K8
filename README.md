@@ -3,8 +3,11 @@ Simple API-based application deployment on Kubernetes
 
 ## Simple API project description
 
-Simple API is a simple application conformed of 3 services, the api-external, the api-month, and the api-day. The api-external is the entry point and needs to be exposed outside the cluster via the URL https://api-external.dev through it you can invoke the 2 services api-month and api-day that simply print the day of the week and the month in their respective logs. The API call is secured using a secret in the headers.
-The endpoints(ENDPOINT_DAY, ENDPOINT_MONTH), ports(PORT), and secret(API_SECRET) must be configured in each Kubernetes deployment through environment variables. Use configmaps and secrets according to the variable type.
+Simple API is a simple application conformed of 3 services, the api-external, the api-month, and the api-day. The api-external is the entry point and needs to be exposed outside the cluster via the URL https://api-external.dev through it you can invoke the 2 services api-month and api-day that print the day of the week and the month in their respective logs. 
+
+The API call is secured using a secret in the headers.
+The endpoints(ENDPOINT_DAY, ENDPOINT_MONTH), ports(PORT), and secret(API_SECRET) must be configured in each Kubernetes deployment through environment variables. 
+Use configmaps and secrets according to the variable type.
 
 ## Tip
 
