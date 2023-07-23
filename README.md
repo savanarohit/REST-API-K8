@@ -2,7 +2,7 @@
 
 This is an API WebApp deployment on Kubernetes
 
-### Simple API project description
+### API deployment project description
 
 Simple API is a simple application conformed of 3 services, the api-external, the api-month, and the api-day. The api-external is the entry point and needs to be exposed outside the cluster via the URL https://api-external.dev through it you can invoke the 2 services api-month and api-day that print the day of the week and the month in their respective logs. 
 
