@@ -1,5 +1,5 @@
-## api-k8-deployment
-Simple API-based application deployment on Kubernetes
+## API Deployment on Kubernetes
+API-based WebApp deployment on Kubernetes
 
 ### Simple API project description
 
